@@ -29,16 +29,44 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="title-bar" data-responsive-toggle="site-navigation">
+
+			<!-- TODO:
+			$("#offCanvas").bind("opened.zf.offcanvas closed.zf.offcanvas", function(3) {
+				$("i").toggleClass("fi-x fi-mail");
+				?? toggleClass("menu-icon", false); toggleClass("")
+			}
+			OR
+			data-toggler=".arrow"
+		 -->
 			<button class="menu-icon" type="button" data-toggle="mobile-menu"></button>
 			<div class="title-bar-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+					<img src="<?php echo get_template_directory_uri().'assets/images/calson/logo_mobile.jpg';?>">
+				</a>
 			</div>
 		</div>
+
+		<!-- TODO:
+			left: 0; top:0; bottom:0; position: fixed; width: 300px;
+			OR
+			row
+				sidebar medium-2 columns: top
+				content
+	 -->
+		<nav id="side-navigation" role="navigation" class="show-for-medium">
+			<ul class="menu vertical" data-responsive-menu="drilldown">
+
+			</ul>
+		</nav>
 
 		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
 			<div class="top-bar-left">
 				<ul class="menu">
-					<li class="home"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></li>
+					<li class="home">
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+							<img src="<?php echo get_template_directory_uri().'assets/images/carlson/logo_desktop.jpg';?>">
+						</a>
+					</li>
 				</ul>
 			</div>
 			<div class="top-bar-right">
@@ -49,6 +77,7 @@
 				<?php endif; ?>
 			</div>
 		</nav>
+
 	</header>
 
 	<section class="container">
