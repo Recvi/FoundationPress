@@ -250,7 +250,6 @@ gulp.task('clean:css', function() {
 gulp.task('git-watch', function() {
   gitWatch()
   .on('check', function() {
-    console.log('git: checking.');
   })
   .on('change', function(newHash, oldHash) {
     console.log('git: changes found FROM', oldHash, '->', newHash);
