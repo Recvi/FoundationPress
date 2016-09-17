@@ -11,6 +11,7 @@ var colors      = require('colors');
 var dateFormat  = require('dateformat');
 var del         = require('del');
 var cleanCSS    = require('gulp-clean-css');
+var gitWatch    = require('gulp-git-watch');
 
 // Enter URL of your local server here
 // Example: 'http://localwebsite.dev'
@@ -246,9 +247,19 @@ gulp.task('clean:css', function() {
     ]);
 });
 
+gulp.task('git-watch', function() {
+  gitWatch()
+  .on('check', function() {
+    console.log('git: checking.');
+  })
+  .on('change', function(newHash, oldHash) {
+    console.log('git: changes found FROM', oldHash, '->', newHash);
+  });
+})
+
 // Default gulp task
-// Run build task and watch for file changes
-gulp.task('default', ['build', 'browser-sync'], function() {
+// Run git-watch build task and watch for file changes
+gulp.task('default', ['git-watch','build', 'browser-sync'], function() {
   // Log file changes to console
   function logFileChange(event) {
     var fileName = require('path').relative(__dirname, event.path);
