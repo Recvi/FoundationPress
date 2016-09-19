@@ -37,7 +37,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<button class="navbar-toggle-back hidden" data-toggle="" data-target="">
+			<button class="navbar-toggle-back hide-for-medium hide" data-toggle="" data-target="">
 				<span class="nav-arrow loaded"><img src="<?php echo get_template_directory_uri().'/assets/images/carlson/nav-arrow.jpg' ?>" alt="back to menu"></span>
 			</button>
 			<div class="title-bar-title">
