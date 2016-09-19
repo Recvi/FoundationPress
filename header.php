@@ -68,7 +68,7 @@
 				<ul class="menu">
 					<li class="home">
 						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-							<img src="<?php echo get_template_directory_uri().'assets/images/carlson/logo_desktop.jpg';?>">
+							<img data-interchange="[<?php echo get_template_directory_uri().'/assets/images/carlson/logo-mobile.jpg'?>, (small)], [<?php echo get_template_directory_uri().'/assets/images/carlson/logo-desktop.jpg'?>, (medium)]" alt="logo">
 						</a>
 					</li>
 				</ul>
