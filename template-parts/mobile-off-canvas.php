@@ -9,10 +9,6 @@
 ?>
 
 <nav class="off-canvas position-left" id="mobile-menu" data-off-canvas data-position="left" role="navigation">
-  <!-- Close button -->
-  <button class="close-button" aria-label="Close menu" type="button" data-close>
-    <span aria-hidden="true">&times;</span>
-  </button>
   <?php foundationpress_mobile_nav(); ?>
 </nav>
 

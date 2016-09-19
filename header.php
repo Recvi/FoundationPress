@@ -30,18 +30,20 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="title-bar" data-responsive-toggle="site-navigation">
 
-			<!-- TODO:
-			$("#offCanvas").bind("opened.zf.offcanvas closed.zf.offcanvas", function(3) {
-				$("i").toggleClass("fi-x fi-mail");
-				?? toggleClass("menu-icon", false); toggleClass("")
-			}
-			OR
-			data-toggler=".arrow"
-		 -->
-			<button id="offCanvasToggle" class="menu-icon" type="button" data-toggle="mobile-menu"></button>
+			<!-- TODO: add scss classes for: icon-bar, navbar-toggle-back, nav-arrow loaded?? -->
+			<button class="" type="button" data-toggle="mobile-menu">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<button class="navbar-toggle-back hidden" data-toggle="" data-target="">
+				<span class="nav-arrow loaded"><img src="<?php echo get_template_directory_uri().'/assets/images/carlson/nav-arrow.jpg' ?>" alt="back to menu"></span>
+			</button>
 			<div class="title-bar-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-					<img src="<?php echo get_template_directory_uri().'assets/images/calson/logo_mobile.jpg';?>">
+					<!-- <img src="<?php echo get_template_directory_uri().'assets/images/carlson/logo_mobile.jpg';?>"> -->
+					<img data-interchange="[<?php echo get_template_directory_uri().'assets/images/carlson/logo-mobile.jpg'?>, (small)], [<?php echo get_template_directory_uri().'assets/images/carlson/logo-desktop.jpg'?>, (medium)]" alt="logo">
 				</a>
 			</div>
 		</div>
@@ -52,12 +54,14 @@
 			row
 				sidebar medium-2 columns: top
 				content
+
 	 -->
 		<nav id="side-navigation" role="navigation" class="show-for-medium">
 			<ul class="menu vertical" data-responsive-menu="drilldown">
 
 			</ul>
 		</nav>
+		<!-- SHOULD PROBABLY MOVE THIS CODE TO SIDEBAR.PHP TEMPLATE -->
 
 		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
 			<div class="top-bar-left">
