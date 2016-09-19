@@ -31,12 +31,13 @@
 		<div class="title-bar" data-responsive-toggle="site-navigation">
 
 			<!-- TODO: add scss classes for: icon-bar, navbar-toggle-back, nav-arrow loaded?? -->
-			<button class="" type="button" data-toggle="mobile-menu">
+			<!-- <button class="" type="button" data-toggle="mobile-menu">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
-			</button>
+			</button> -->
+			<button class="menu-icon" type="button" data-toggle="mobile-menu">
 			<button class="navbar-toggle-back hide-for-medium hide" data-toggle="" data-target="">
 				<span class="nav-arrow loaded"><img src="<?php echo get_template_directory_uri().'/assets/images/carlson/nav-arrow.jpg' ?>" alt="back to menu"></span>
 			</button>
