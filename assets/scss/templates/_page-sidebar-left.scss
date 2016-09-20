@@ -2,7 +2,7 @@
   @include grid-row();
   margin-top: 3rem;
 
-  @@include show-for(medium);
+  @include show-for(medium);
 
   .main-content {
     @include breakpoint(small) {
