@@ -27,7 +27,7 @@
 /* Tablet and desktop menu */
 .top-bar {
 
-  @@include vertical-center;
+  @include vertical-center;
 
   .menu .home a {
     font-size: 1rem;
