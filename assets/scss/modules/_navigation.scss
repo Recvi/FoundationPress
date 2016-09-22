@@ -48,7 +48,7 @@
   }
 
   .menu>li:not(.menu-text)>a { padding: 1rem; }
-  .menu>.home>a { padding: 0; }
+  .menu>.home>#logo-desktop { padding: 0; }
   // .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
 
   .dropdown.menu .submenu {
