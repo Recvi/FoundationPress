@@ -33,7 +33,7 @@
   }
 
   .menu a {
-    height: 45px;
+    // height: 45px;
     line-height: 45px;
     color: #e6e6e6;
     padding-top: 0;
@@ -43,12 +43,13 @@
     line-height: 1;
 
     &:hover:not(.button) {
-      background-color: #2a2a2a;
+      background-color: darken($primary-color, 5%);
     }
   }
 
   .menu>li:not(.menu-text)>a { padding: 1rem; }
-  .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
+  .menu>li:not(.menu-text)>a>img { padding: 0; }
+  // .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
 
   .dropdown.menu .submenu {
     background-color: #121212;
