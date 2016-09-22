@@ -22,7 +22,7 @@
     @include breakpoint(medium) {
       @include grid-column(2);
       @include grid-col-pos(-10);
-      width: 132px;
+      width: 130px;
       background: $secondary-color;
     }
   }
