@@ -10,7 +10,7 @@
 
 ?>
 <!doctype html>
-<html class="no-js" <?php language_attributes(); ?> >
+<html class="no-js wf-formata-i4-active wf-formata-i3-active wf-formata-n5-active wf-formata-i5-active wf-formata-n4-active wf-formata-n3-active wf-active" <?php language_attributes(); ?> >
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
