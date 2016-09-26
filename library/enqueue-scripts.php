@@ -24,18 +24,18 @@ if ( ! function_exists( 'foundationpress_scripts' ) ) :
 	wp_enqueue_script( 'jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js', array(), '2.1.0', false );
 	//
 	// Carlson js files
-	// wp_enqueue_script('shu6esf', get_template_directory_uri().'/assets/javascript/carlson/shu6esf.js', array(), '1.0.0', false);
-	//
-	// wp_enqueue_script('typekit', get_template_directory_uri().'/assets/javascript/carlson/typekit.js', array(), '1.0.0', false);
+	wp_enqueue_script('shu6esf', get_template_directory_uri().'/assets/javascript/carlson/shu6esf.js', array(), '1.0.0', false);
+
+	wp_enqueue_script('typekit', get_template_directory_uri().'/assets/javascript/carlson/typekit.js', array(), '1.0.0', false);
 
 	wp_enqueue_script('carlsonmain', get_template_directory_uri().'/assets/javascript/carlson/main.js', array(), '1.0.0', false);
 
 
-	// wp_enqueue_script('shared', get_template_directory_uri().'/assets/javascript/carlson/shared.js', array(), '1.0.0', false);
-	//
+	wp_enqueue_script('shared', get_template_directory_uri().'/assets/javascript/carlson/shared.js', array(), '1.0.0', false);
+
 	wp_enqueue_script('underscore', get_template_directory_uri().'/assets/javascript/carlson/underscore.js', array(), '1.0.0', false);
-	//
-	// wp_enqueue_script('kernel', get_template_directory_uri().'/assets/javascript/carlson/kernel.js', array(), '1.0.0', false);
+
+	wp_enqueue_script('kernel', get_template_directory_uri().'/assets/javascript/carlson/kernel.js', array(), '1.0.0', false);
 
 
 
