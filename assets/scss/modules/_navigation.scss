@@ -18,11 +18,12 @@
 }
 
 .title-bar-title {
+  width: 232px;
+  padding-left: 1rem;
+
   a {
     font-size: 1rem;
     color: #B9B9B9;
-    width: 232px;
-    padding-left: 1rem;
   }
 }
 
@@ -73,8 +74,7 @@
 #logo-desktop {
   margin-left: 1px;
 }
-#logo
-#page-header {
+#masthead {
   border-bottom: .1rem solid #bcbebf;
 }
 
