@@ -32,7 +32,7 @@
 
 			<button class="menu-icon" type="button" data-toggle="mobile-menu">
 			<button class="navbar-toggle-back hide-for-medium hide" data-toggle="" data-target="">
-				<span class="nav-arrow loaded"><img src="<?php echo get_template_directory_uri().'/assets/images/carlson/nav-arrow.jpg' ?>" alt="back to menu"></span>
+				<span class="nav-arrow loaded"><img id="logo-desktop" src="<?php echo get_template_directory_uri().'/assets/images/carlson/nav-arrow.jpg' ?>" alt="back to menu"></span>
 			</button>
 			<div class="title-bar-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
