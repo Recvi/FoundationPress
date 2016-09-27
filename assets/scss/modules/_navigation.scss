@@ -30,12 +30,14 @@
 #mobile-menu {
   height: 100vh;
 }
+
 #menu-mobile-off-canvas {
   background-color: $primary-color
-}
-
-#menu-mobile-off-canvas, #menu-mobile-sidebar-off-canvas {
   height: auto;
+}
+#menu-mobile-sidebar-off-canvas {
+  height: auto;
+  color: $dark-gray;
 }
 
 /* Tablet and desktop menu */
