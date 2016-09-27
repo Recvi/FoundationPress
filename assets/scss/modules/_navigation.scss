@@ -27,6 +27,17 @@
   }
 }
 
+#mobile-menu {
+  height: 100vh;
+}
+#menu-mobile-off-canvas {
+  background-color: $primary-color
+}
+
+#menu-mobile-off-canvas, #menu-mobile-sidebar-off-canvas {
+  height: auto;
+}
+
 /* Tablet and desktop menu */
 .top-bar {
 
