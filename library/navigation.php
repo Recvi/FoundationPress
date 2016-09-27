@@ -64,7 +64,7 @@ if ( ! function_exists( 'foundationpress_mobile_nav' ) ) {
 			 'items_wrap'			=> '<ul id="%1$s" class="%2$s" data-accordion-menu>%3$s</ul>',
 			 'fallback_cb'		=> false,
 			 'walker'					=> new Foundationpress_Mobile_Under_Walker(),
-		 ))
+		 ));
 	 }
  }
 
