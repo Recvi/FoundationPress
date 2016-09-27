@@ -37,7 +37,7 @@
 }
 #menu-mobile-sidebar-off-canvas {
   height: auto;
-  color: $dark-gray;
+    .menu-item > a { color: $dark-gray; }
 }
 
 /* Tablet and desktop menu */
