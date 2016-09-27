@@ -43,6 +43,10 @@
 /* Tablet and desktop menu */
 .top-bar {
 
+  .top-bar-right {
+    @@include vertical-center;
+  }
+
   .menu .home a {
     font-size: 1rem;
     color: #B9B9B9;
