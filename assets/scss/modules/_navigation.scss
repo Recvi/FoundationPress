@@ -44,7 +44,7 @@
 .top-bar {
 
   .top-bar-right {
-    @@include vertical-center;
+    @include vertical-center;
   }
 
   .menu .home a {
