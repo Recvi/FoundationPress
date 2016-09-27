@@ -55,7 +55,7 @@ if ( ! function_exists( 'foundationpress_mobile_nav' ) ) {
  * Mobile navigation - sidebar (secondary) offcanvas under
  */
  if ( ! function_exists( 'foundationpress_mobile_under_nav' ) ) {
-	 function foundationpress_under_side_nav() {
+	 function foundationpress_mobile_under_nav() {
 		 wp_nav_menu( array(
 			 'container'			=> false,
 			 'menu'						=> __( 'mobile-under-nav', 'foundationpress' ),
