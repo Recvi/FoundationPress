@@ -30,6 +30,9 @@
 #mobile-menu {
   height: 100vh;
 }
+#site-navigation {
+  width: 100%;
+}
 
 #menu-mobile-off-canvas {
   background-color: $primary-color;
@@ -47,7 +50,7 @@
     margin-top: 2.5rem;
 
     .menu-item {
-      
+
     }
   }
 
@@ -88,7 +91,6 @@
     a::after {
       display: none;
     }
-
 }
 
 #logo-desktop {
