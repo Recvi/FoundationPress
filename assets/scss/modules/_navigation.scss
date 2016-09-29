@@ -44,14 +44,17 @@
 .top-bar {
 
   .top-bar-right {
-    @include vertical-center;
+    margin-top: 2.5rem;
+
+    .menu-item {
+      
+    }
   }
 
   .menu .home a {
     font-size: 1rem;
     color: #B9B9B9;
   }
-
   .menu a {
     // height: 45px;
     line-height: 45px;
@@ -59,7 +62,7 @@
     padding-top: 0;
     padding-bottom: 0;
     font-weight: bold;
-    font-size: 0.8rem;
+    font-size: 1rem;
     line-height: 1;
 
     &:hover:not(.button) {
