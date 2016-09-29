@@ -6,6 +6,7 @@
 
 #mobile-menu, .title-bar {
   @include hide-for(medium);
+  width: 100%;
 }
 
 /* Mobile menu */
