@@ -27,13 +27,13 @@
 
 	<?php do_action( 'foundationpress_layout_start' ); ?>
 
-	<header id="masthead" class="site-header" data-sticky-container role="banner">
-		<div class="title-bar" data-sticky data-options="marginTop:0;" data-responsive-toggle="site-navigation">
+	<header id="masthead" class="site-header" role="banner">
+		<div class="title-bar"  data-responsive-toggle="site-navigation">
 
-			<button class="menu-icon" type="button" data-toggle="mobile-menu">
-			<button class="close-button" aria-label="Close menu" type="button" data-close="mobile-menu">
+			<button class="menu-icon" type="button" data-toggle="mobile-menu"></button>
+			<!-- <button class="close-button" aria-label="Close menu" type="button" data-close="mobile-menu">
 				<span aria-hidden="true">&times;</span>
-			</button>
+			</button> -->
 			<div class="title-bar-title">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 					<img src="<?php echo get_template_directory_uri().'/assets/images/carlson/logo-mobile.jpg';?>" alt="logo">
@@ -41,7 +41,7 @@
 			</div>
 		</div>
 
-		<nav id="site-navigation" class="main-navigation top-bar" data-sticky data-options="marginTop:0;" role="navigation">
+		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
 			<div class="top-bar-left">
 				<ul class="menu">
 					<li class="home">

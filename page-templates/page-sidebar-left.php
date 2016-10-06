@@ -8,6 +8,8 @@ get_header(); ?>
 
 <div id="page-sidebar-left" role="main">
 
+<?php get_sidebar(); ?>
+
 <?php do_action( 'foundationpress_before_content' ); ?>
 <?php while ( have_posts() ) : the_post(); ?>
   <article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
@@ -29,7 +31,6 @@ get_header(); ?>
 <?php endwhile;?>
 
 <?php do_action( 'foundationpress_after_content' ); ?>
-<?php get_sidebar(); ?>
 
 </div>
 

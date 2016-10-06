@@ -1,7 +1,6 @@
 #page-sidebar-left {
   @include grid-row();
-
-  @include show-for(medium);
+  max-width: none;
 
   .main-content {
     @include breakpoint(small) {
@@ -9,19 +8,23 @@
     }
 
     @include breakpoint(medium) {
-      @include grid-column(10);
-      @include grid-col-pos(2);
+      @include grid-column(12);
+      // @include grid-column(11);
+      // @include grid-col-pos(1);
+      padding-left: 142px;
     }
   }
 
   .sidebar {
-    @include breakpoint(small) {
-      @include grid-column(12);
-    }
+    @include show-for(medium);
 
     @include breakpoint(medium) {
-      @include grid-column(2);
-      @include grid-col-pos(-10);
+      // @include grid-column(1);
+      // @include grid-col-pos(-11);
+      position: fixed;
+      width: 132px;
+      top: 132px;
+      left: 0;
       background: #303b43;
     }
   }
