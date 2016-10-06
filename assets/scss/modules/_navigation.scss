@@ -31,10 +31,6 @@
 #mobile-menu {
   height: 100vh;
 }
-#site-navigation {
-  width: 100%;
-}
-
 #menu-mobile-off-canvas {
   background-color: $primary-color;
   height: auto;
@@ -101,6 +97,9 @@
 }
 #masthead {
   border-bottom: .1rem solid #bcbebf;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /* Basic styles for post navigation. Nicolas Gallagher's "Micro clearfix" https://css-tricks.com/snippets/css/clear-fix/ */
