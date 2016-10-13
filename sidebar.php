@@ -9,6 +9,6 @@
 ?>
 <aside class="sidebar">
 	<?php do_action( 'foundationpress_before_sidebar' ); ?>
-	<?php foundationpress_mobile_under_nav(); ?>
+	<?php foundationpress_side_bar(); ?>
 	<?php do_action( 'foundationpress_after_sidebar' ); ?>
 </aside>

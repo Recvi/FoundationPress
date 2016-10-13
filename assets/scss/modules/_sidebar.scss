@@ -7,7 +7,7 @@
     @include grid-column(4);
   }
 
-  .vertical li {
+  .vertical > li {
     border-bottom: 1px solid $light-gray;
     text-align: center;
   }
