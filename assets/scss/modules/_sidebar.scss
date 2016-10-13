@@ -7,8 +7,20 @@
     @include grid-column(4);
   }
 
-  .vertical > li {
+  #menu-sidebar-left > li {
     border-bottom: 1px solid $light-gray;
     text-align: center;
+
+    .submenu {
+      position: fixed;
+      right: auto;
+      left: 132px;
+      top: 132px;
+      bottom: 0;
+
+      > li {
+        border-bottom: none;
+      }
+    }
   }
 }
