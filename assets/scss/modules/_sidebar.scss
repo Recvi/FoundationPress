@@ -11,6 +11,10 @@
     border-bottom: 1px solid $light-gray;
     text-align: center;
 
+    .is-dropdown-submenu-parent > a::after {
+      content: '';
+    }
+
     .submenu {
       position: fixed;
       right: auto;
@@ -20,6 +24,7 @@
 
       > li {
         border-bottom: none;
+        > a { color: #0098a1;}
       }
     }
   }
