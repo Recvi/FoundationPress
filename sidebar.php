@@ -9,7 +9,9 @@
 ?>
 <aside class="sidebar">
 	<?php do_action( 'foundationpress_before_sidebar' ); ?>
-	<!-- <?php dynamic_sidebar( 'sidebar-widgets' ); ?> -->
-	<?php foundationpress_mobile_under_nav(); ?>
+	<!-- <?php foundationpress_mobile_under_nav(); ?> -->
+	<ul class="vertical dropdown menu" id="sidebar-menu" data-dropdown-menu>
+		<li><a href=""></a></li>
+	</ul>
 	<?php do_action( 'foundationpress_after_sidebar' ); ?>
 </aside>

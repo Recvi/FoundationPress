@@ -6,4 +6,9 @@
   @include breakpoint(medium) {
     @include grid-column(4);
   }
+
+  .vertical > li {
+    border-bottom: 1px solid $light-gray;
+    text-align: center;
+  }
 }
