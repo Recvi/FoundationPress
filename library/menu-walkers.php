@@ -25,7 +25,8 @@
       $output .= "\n$indent<ul class=\"dropdown menu vertical\" data-toggle>\n";
  	}
  }
-
+ endif;
+ 
  if ( ! class_exists( 'Foundationpress_Mobile_Walker' ) ) :
  class Foundationpress_Mobile_Walker extends Walker_Nav_Menu {
  	function start_lvl( &$output, $depth = 0, $args = array() ) {
