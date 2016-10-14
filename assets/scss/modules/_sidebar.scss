@@ -11,10 +11,6 @@
     border-bottom: 1px solid $light-gray;
     text-align: center;
 
-    .is-dropdown-submenu-parent > a::after {
-      content: none;
-    }
-
     .submenu {
       position: fixed;
       right: auto;
@@ -28,4 +24,9 @@
       }
     }
   }
+
+  .dropdown.menu.vertical > li.opens-right > a::after {
+    display: none;
+  }
+
 }
