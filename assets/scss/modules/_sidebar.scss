@@ -10,6 +10,8 @@
   #menu-sidebar-left > li {
     border-bottom: 1px solid $light-gray;
     text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
     .submenu {
       position: fixed;

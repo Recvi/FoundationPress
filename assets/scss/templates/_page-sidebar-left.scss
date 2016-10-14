@@ -5,6 +5,7 @@
   .main-content {
     @include breakpoint(small) {
       @include grid-column(12);
+      margin-top: 24px;
     }
 
     @include breakpoint(medium) {

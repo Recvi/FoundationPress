@@ -13,32 +13,36 @@
  * @since FoundationPress 1.0.0
  */
 
+<?php
+/*
+Template Name: Left Sidebar
+*/
 get_header(); ?>
 
-<div id="page" role="main">
-	<article class="main-content">
-	<?php if ( have_posts() ) : ?>
+<?php get_template_part( 'template-parts/featured-image' ); ?>
 
-		<?php /* Start the Loop */ ?>
-		<?php while ( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'template-parts/content', get_post_format() ); ?>
-		<?php endwhile; ?>
+<div id="page-sidebar-left" role="main">
 
-		<?php else : ?>
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
-		<?php endif; // End have_posts() check. ?>
+<?php do_action( 'foundationpress_before_content' ); ?>
+<?php while ( have_posts() ) : the_post(); ?>
+  <article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
+      <header>
+          <h1 class="entry-title"><?php the_title(); ?></h1>
+      </header>
+      <?php do_action( 'foundationpress_page_before_entry_content' ); ?>
+      <div class="entry-content">
+          <?php the_content(); ?>
+      </div>
+      <footer>
+          <?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ), 'after' => '</p></nav>' ) ); ?>
+          <p><?php the_tags(); ?></p>
+      </footer>
+  </article>
+<?php endwhile;?>
 
-		<?php /* Display navigation to next/previous pages when applicable */ ?>
-		<?php if ( function_exists( 'foundationpress_pagination' ) ) { foundationpress_pagination(); } else if ( is_paged() ) { ?>
-			<nav id="post-nav">
-				<div class="post-previous"><?php next_posts_link( __( '&larr; Older posts', 'foundationpress' ) ); ?></div>
-				<div class="post-next"><?php previous_posts_link( __( 'Newer posts &rarr;', 'foundationpress' ) ); ?></div>
-			</nav>
-		<?php } ?>
-
-	</article>
-	<?php get_sidebar(); ?>
+<?php do_action( 'foundationpress_after_content' ); ?>
+<?php get_sidebar(); ?>
 
 </div>
 
