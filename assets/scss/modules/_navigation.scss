@@ -42,8 +42,15 @@
 /* Tablet and desktop menu */
 .top-bar {
 
+  #searchform {
+    float: right;
+    margin-top: 2.5rem;
+  }
+
   .top-bar-right {
     margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    float: left;
 
     .menu-item {
 
@@ -65,7 +72,7 @@
     line-height: 1;
 
     &:hover:not(.button) {
-      background-color: darken($primary-color, 5%);
+      background-color: darken($primary-color, 10%);
     }
   }
 
