@@ -109,6 +109,10 @@
   width: 100%;
 }
 
+#searchsubmit {
+  background-color: darken($primary-color, 10%);
+}
+
 /* Basic styles for post navigation. Nicolas Gallagher's "Micro clearfix" https://css-tricks.com/snippets/css/clear-fix/ */
 .post-navigation:before,
 .post-navigation:after {
