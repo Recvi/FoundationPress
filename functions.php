@@ -50,5 +50,8 @@ require_once( 'library/responsive-images.php' );
 /** Remove admin bar to all users except administrators */
 require_once( 'library/remove-admin-bar.php');
 
+/** After login redirect to home page. */
+require_once( 'library/login-redirect.php');
+
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/protocol-relative-theme-assets.php' );
