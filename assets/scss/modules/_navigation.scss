@@ -2,6 +2,7 @@
 
 .desktop-menu, .top-bar-left, .top-bar-right, #searchform {
   @include show-for(medium);
+  z-index: 100;
 }
 
 #mobile-menu, .title-bar {
