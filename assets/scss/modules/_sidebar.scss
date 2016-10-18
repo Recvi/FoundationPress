@@ -24,11 +24,12 @@
       > li {
         border-bottom: none;
         margin-top: 1.2rem;
+
         > a {
           color: $primary-color;
           border-radius: 1rem;
 
-          :hover {
+          &:hover {
             color: $white;
             background-color: $primary-color;
           }
