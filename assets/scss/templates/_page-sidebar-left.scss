@@ -30,6 +30,13 @@
         padding-left: 2rem;
         padding-top: 2rem;
         max-width: 80vw;
+
+        .entry-title > a {
+          color: $primary-color;
+        }
+        .entry-title > a:hover {
+          color: scale-color($primary-color, $lightness: -14%);
+        }
       }
     }
   }
