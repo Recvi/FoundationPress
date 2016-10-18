@@ -1,6 +1,12 @@
 #single-post {
   @include grid-row();
   max-width: 100vw;
+  a {
+    color: $primary-color;
+  }
+  a:hover {
+    color: scale-color($primary-color, $lightness: -14%);
+  }
 
   .main-content {
     @include breakpoint(small) {
