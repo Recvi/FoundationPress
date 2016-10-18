@@ -14,6 +14,10 @@
       padding-left: 0;
       padding-right: 0;
 
+      .padded {
+        padding: 2rem;
+      }
+
       header {
         padding-left: 3rem;
       }
@@ -27,9 +31,6 @@
         padding-top: 2rem;
         max-width: 80vw;
       }
-    }
-    .padded {
-      padding: 2rem;
     }
   }
 
