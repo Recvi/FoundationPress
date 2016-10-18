@@ -67,8 +67,10 @@ get_header(); ?>
           <p><?php the_tags(); ?></p>
         </footer>
       </article>
-
-
+<?php
+    endforeach;
+    wp_reset_postdata();
+?>
 <?php do_action( 'foundationpress_after_content' ); ?>
 <?php get_sidebar(); ?>
 
