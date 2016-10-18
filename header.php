@@ -56,11 +56,11 @@
 					<?php get_template_part( 'template-parts/mobile-top-bar' ); ?>
 				<?php endif; ?>
 			</div>
-
-			<?php get_search_form(); ?>
 			<div id="logout">
 				<a href="<?php echo wp_logout_url( home_url() ); ?>">Logout</a>
 			</div>
+			<?php get_search_form(); ?>
+
 		</nav>
 
 	</header>
