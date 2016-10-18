@@ -24,7 +24,15 @@
       > li {
         border-bottom: none;
         margin-top: 1.2rem;
-        > a { color: #0098a1;}
+        > a {
+          color: $primary-color;
+          border-radius: 1rem;
+
+          :hover {
+            color: $white;
+            background-color: $primary-color;
+          }
+        }
       }
     }
   }
