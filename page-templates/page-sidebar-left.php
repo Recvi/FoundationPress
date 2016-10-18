@@ -13,6 +13,9 @@ get_header(); ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
   <article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
+      <header>
+         <h1 class="entry-title"><?php the_title(); ?></h1>
+      </header>
       <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
         <ul class="orbit-container">
           <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>

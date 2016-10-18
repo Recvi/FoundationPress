@@ -10,8 +10,12 @@
 
     @include breakpoint(medium) {
       margin-left: 132px;
-      margin-top: 132px;
+      margin-top: 142px;
       padding-left: 0;
+
+      header {
+        text-align: center;
+      }
     }
   }
 
