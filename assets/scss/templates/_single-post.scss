@@ -1,15 +1,29 @@
 #single-post {
   @include grid-row();
-  margin-top: 3rem;
+  max-width: 100vw;
 
   .main-content {
     @include breakpoint(small) {
       @include grid-column(12);
+      margin-top: 24px;
     }
 
     @include breakpoint(medium) {
-      @include grid-column(8);
+      margin-left: 152px;
+      margin-top: 142px;
     }
   }
 
+  .sidebar {
+    @include show-for(medium);
+
+    @include breakpoint(medium) {
+      position: fixed;
+      width: 132px;
+      top: 132px;
+      left: 0;
+      bottom: 0;
+      background: #303b43;
+    }
+  }
 }
