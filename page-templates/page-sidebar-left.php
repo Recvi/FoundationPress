@@ -46,7 +46,9 @@ get_header(); ?>
     setup_postdata($post); ?>
       <article id="post-<?php the_ID(); ?>">
         <header>
-          <h1 class="entry-title"><?php the_title(); ?></h1>
+          <h1 class="entry-title">
+            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+          </h1>
         </header>
         <div class="entry-content">
           <?php the_excerpt(); ?>
