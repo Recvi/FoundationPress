@@ -58,7 +58,9 @@
 			</div>
 
 			<?php get_search_form(); ?>
-			<a href="<?php echo wp_logout_url( home_url() ); ?>">Logout</a>
+			<div id="logout">
+				<a href="<?php echo wp_logout_url( home_url() ); ?>">Logout</a>
+			</div>
 		</nav>
 
 	</header>
