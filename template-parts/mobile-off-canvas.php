@@ -9,6 +9,7 @@
 ?>
 
 <nav class="off-canvas position-left" id="mobile-menu" data-off-canvas data-position="left" role="navigation">
+	<?php get_search_form(); ?>
   <?php foundationpress_mobile_nav(); ?>
   <?php foundationpress_mobile_under_nav(); ?>
 </nav>
