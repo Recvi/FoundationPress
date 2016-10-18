@@ -49,11 +49,26 @@ get_header(); ?>
           <?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ), 'after' => '</p></nav>' ) ); ?>
           <p><?php the_tags(); ?></p>
       </footer>
-      <?php do_action( 'foundationpress_page_before_comments' ); ?>
-      <?php comments_template(); ?>
-      <?php do_action( 'foundationpress_page_after_comments' ); ?>
   </article>
 <?php endwhile;?>
+<?php
+  $args = array('posts_per_page'=> 5, 'orderby'=> 'date');
+  $postlist = get_posts($args);
+  foreach ($postlist as $post):
+    setup_postdata($post); ?>
+      <article id="post-<?php the_ID(); ?>">
+        <header>
+          <h1 class="entry-title"><?php the_title(); ?></h1>
+        </header>
+        <div class="entry-content">
+          <?php the_excerpt(); ?>
+        </div>
+        <footer>
+          <p><?php the_tags(); ?></p>
+        </footer>
+      </article>
+
+
 <?php do_action( 'foundationpress_after_content' ); ?>
 <?php get_sidebar(); ?>
 
