@@ -9,7 +9,7 @@
 get_header(); ?>
 
 <div id="page-sidebar-left" role="main">
-
+		<div class="main-content">"
 		<?php do_action( 'foundationpress_before_content' ); ?>
 
 		<h2><?php _e( 'Search Results for', 'foundationpress' ); ?> "<?php echo get_search_query(); ?>"</h2>
@@ -34,7 +34,7 @@ get_header(); ?>
 			<div class="post-next"><?php previous_posts_link( __( 'Newer posts &rarr;', 'foundationpress' ) ); ?></div>
 		</nav>
 	<?php } ?>
-
+</div>
 	<?php do_action( 'foundationpress_after_content' ); ?>
 
 	<?php get_sidebar(); ?>
