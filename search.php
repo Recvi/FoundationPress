@@ -9,7 +9,8 @@
 get_header(); ?>
 
 <div id="page-sidebar-left" role="main">
-		<div class="main-content padded">
+		<div class="main-content">
+			<div class="padded">
 		<?php do_action( 'foundationpress_before_content' ); ?>
 
 		<h2><?php _e( 'Search Results for', 'foundationpress' ); ?> "<?php echo get_search_query(); ?>"</h2>
@@ -39,4 +40,6 @@ get_header(); ?>
 
 	<?php get_sidebar(); ?>
 </div>
+</div>
+
 <?php get_footer();
