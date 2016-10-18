@@ -9,10 +9,10 @@
 get_header(); ?>
 
 <div id="page-sidebar-left" role="main">
-		<div class="main-content">"
+		<div class="main-content">
 		<?php do_action( 'foundationpress_before_content' ); ?>
 
-		<h2><?php _e( 'Search Results for', 'foundationpress' ); ?> "<?php echo get_search_query(); ?></h2>
+		<h2><?php _e( 'Search Results for', 'foundationpress' ); ?> "<?php echo get_search_query(); ?>"</h2>
 
 	<?php if ( have_posts() ) : ?>
 
