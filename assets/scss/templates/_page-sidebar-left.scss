@@ -11,23 +11,20 @@
     @include breakpoint(medium) {
       margin-left: 132px;
       margin-top: 130px;
-      padding-left: 2rem;
-      padding-top: 2rem;
 
       header {
         padding-left: 3rem;
       }
-    }
 
-    .orbit {
-      max-width: 89vw;
-      padding-left: 0;
-      padding-right: 0;
-    }
-    >article {
-      padding-left: 2rem;
-      padding-right: 2rem;
-      max-width: 80vw;
+      .orbit {
+        max-width: 89vw;
+      }
+
+      >article {
+        padding-left: 2rem;
+        padding-top: 2rem;
+        max-width: 80vw;
+      }
     }
   }
 
