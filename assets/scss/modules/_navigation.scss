@@ -1,6 +1,6 @@
 /* Navigation breakpoints */
 
-.desktop-menu, .top-bar-left, .top-bar-right, #searchform {
+.desktop-menu, .top-bar-left, .top-bar-right, #searchform, #logout {
   @include show-for(medium);
 }
 
