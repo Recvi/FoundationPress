@@ -92,9 +92,11 @@
   // .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
 
   .dropdown.menu .submenu {
-    background-color: #121212;
-    color: #e6e6e6;
+    background-color: $white;
+    color: $primary-color;
     border: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
   }
 
   .dropdown.menu .has-submenu.is-down-arrow a { padding-right: 1rem; }
