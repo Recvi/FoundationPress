@@ -1,0 +1,87 @@
+.tk-formata {
+  font-family: "formata", sans-serif;
+}
+
+@font-face {
+  font-family: tk-formata-i4;
+  src: url(https://use.typekit.net/af/f80df8/00000000000000000001377d/27/l?subset_id=1&fvd=i4) format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: tk-formata-n3;
+  src: url(https://use.typekit.net/af/e170ad/00000000000000000001377e/27/l?subset_id=1&fvd=n3) format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: tk-formata-i3;
+  src: url(https://use.typekit.net/af/815186/00000000000000000001377f/27/l?subset_id=1&fvd=i3) format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: tk-formata-n5;
+  src: url(https://use.typekit.net/af/1ca2a4/000000000000000000013780/27/l?subset_id=1&fvd=n5) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: tk-formata-i5;
+  src: url(https://use.typekit.net/af/e8af31/000000000000000000013781/27/l?subset_id=1&fvd=i5) format("woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: tk-formata-n4;
+  src: url(https://use.typekit.net/af/95586d/000000000000000000013782/27/l?subset_id=1&fvd=n4) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: formata;
+  src: url(https://use.typekit.net/af/f80df8/00000000000000000001377d/27/l?subset_id=1&fvd=i4) format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: formata;
+  src: url(https://use.typekit.net/af/e170ad/00000000000000000001377e/27/l?subset_id=1&fvd=n3) format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: formata;
+  src: url(https://use.typekit.net/af/815186/00000000000000000001377f/27/l?subset_id=1&fvd=i3) format("woff2");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: formata;
+  src: url(https://use.typekit.net/af/1ca2a4/000000000000000000013780/27/l?subset_id=1&fvd=n5) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: formata;
+  src: url(https://use.typekit.net/af/e8af31/000000000000000000013781/27/l?subset_id=1&fvd=i5) format("woff2");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: formata;
+  src: url(https://use.typekit.net/af/95586d/000000000000000000013782/27/l?subset_id=1&fvd=n4) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}

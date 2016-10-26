@@ -12,6 +12,9 @@
 if ( ! function_exists( 'foundationpress_scripts' ) ) :
 	function foundationpress_scripts() {
 
+	// Enqueue the main fonts.
+	wp_enqueue_style( 'main-font', get_template_directory_uri(). '/assets/fonts/fonts.css', array(), '1.0.0', 'all' );
+
 	// Enqueue the main Stylesheet.
 	wp_enqueue_style( 'main-stylesheet', get_template_directory_uri() . '/assets/stylesheets/foundation.css', array(), '2.6.1', 'all' );
 
