@@ -94,15 +94,12 @@
   .menu>.home>#logo-desktop { padding: 0; }
   // .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
 
-  .dropdown.menu .submenu {
+  .dropdown.menu .submenu .first-sub {
     background-color: $white;
     border: 0;
     border-radius: 6px;
-
-    .is-dropdown-submenu {
-      left: 0;
-      right: auto;
-    }
+    left: 0;
+    right: auto;
 
     li > a {
       color: $primary-color;
