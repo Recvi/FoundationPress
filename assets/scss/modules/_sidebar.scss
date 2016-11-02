@@ -46,6 +46,10 @@
     }
   }
 
+  #menu-sidebar-left > li > a {
+    padding: 0.2rem 0 0.2rem 0;
+  }
+
   #menu-sidebar-left.dropdown.menu.vertical > li.opens-right > a::after {
     display: none;
   }
