@@ -45,6 +45,13 @@
   #searchform {
     float: right;
     margin-top: 2.5rem;
+
+    #searchsubmit {
+      border-radius: 0 4px 4px 0;
+    }
+    #s {
+      border-radius: 4px 0 0 4px;
+    }
   }
 
   #logout a {
@@ -70,10 +77,6 @@
     margin-top: 2.5rem;
     margin-left: 2.5rem;
     float: left;
-
-    .menu-item {
-
-    }
   }
 
   .menu .home a {

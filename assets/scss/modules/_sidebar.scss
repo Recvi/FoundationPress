@@ -13,6 +13,16 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
 
+    >a {
+      color: #86949e;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1.4;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
     .submenu {
       position: fixed;
       right: auto;
