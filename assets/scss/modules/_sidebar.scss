@@ -30,8 +30,8 @@
       top: 132px;
       bottom: 0;
       border: 0;
-      border-top-right-radius: 0.5rem;
-      border-bottom-right-radius: 0.5rem;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
 
       > .submenu-header {
         font-weight: 500;
@@ -39,13 +39,12 @@
         line-height: 24px;
         margin-bottom: 20px;
         color: #333;
-        padding-left: 35px;
-      }
+        padding-left: 20px;
+        padding-top: 25px;
 
       > li {
         border-bottom: none;
-        margin-bottom: 14px;
-        padding-left: 53px;
+        padding-left: 25px;
 
         > a {
           color: $primary-color;
