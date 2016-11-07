@@ -29,26 +29,29 @@
       left: 132px;
       top: 132px;
       bottom: 0;
+      border: 0;
       border-top-right-radius: 0.5rem;
       border-bottom-right-radius: 0.5rem;
 
       > .submenu-header {
         font-weight: 500;
         font-size: 17px;
-        line-height: 2.4;
+        line-height: 24px;
         margin-bottom: 20px;
         color: #333
+        padding-left: 35px;
       }
 
       > li {
         border-bottom: none;
         margin-bottom: 14px;
+        padding-left: 53px;
 
         > a {
           color: $primary-color;
           font-weight: 400;
           font-size: 16px;
-          line-height: 2.4;
+          line-height: 24px;
 
           &:hover {
             text-decoration: underline;
