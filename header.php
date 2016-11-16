@@ -70,7 +70,7 @@
 		<p class="lead">choose a title for your post and start editing it</p>
 		<form>
 			<label>Title
-				<input type="text" placeholder="fill in the title of your post">
+				<input id="new-post-title" type="text" placeholder="fill in the title of your post">
 			</label>
 		</form>
 		<button class="expanded button" id="create-empty-post" type="button">Create post</button>
