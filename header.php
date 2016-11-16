@@ -65,5 +65,19 @@
 
 	</header>
 
+	<div class="reveal" id="createNewPost" data-reveal>
+		<h1>Create New Post</h1>
+		<p class="lead">choose a title for your post and start editing it</p>
+		<form>
+			<label>Title
+				<input type="text" placeholder="fill in the title of your post">
+			</label>
+		</form>
+		<button class="expanded button" id="create-empty-post" type="button">Create post</button>
+		<button class="close-button" data-close aria-label="Close modal" type="button">
+			<span aria-hidden="true">&times;</span>
+		</button>
+	</div>
+
 	<section class="container">
 		<?php do_action( 'foundationpress_after_header' );
