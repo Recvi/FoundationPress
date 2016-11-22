@@ -8,6 +8,9 @@ get_header(); ?>
 
 <div id="page-sidebar-left" role="main">
 
+<?php do_action( 'foundationpress_before_content' ); ?>
+<div class="main-content">
+
 <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
     <ul class="orbit-container">
       <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
@@ -57,9 +60,6 @@ get_header(); ?>
   endforeach;
   wp_reset_postdata();
 ?>
-
-<?php do_action( 'foundationpress_before_content' ); ?>
-<div class="main-content">
 <?php the_content(); ?>
 <?php do_action( 'foundationpress_after_content' ); ?>
 </div>
