@@ -17,6 +17,7 @@ get_header(); ?>
       <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
       <li class="is-active orbit-slide">
         <img class="orbit-image" src="<?php echo get_template_directory_uri().'/assets/images/carlson/orbit/01.jpg'?>" alt="Space">
+        <h3 class="text-center">This is one big test!</h3>
         <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
       </li>
       <li class="orbit-slide">
