@@ -36,7 +36,7 @@ get_header(); ?>
       <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
     </nav>
   </div>
-	<?php $args = array('posts_per_page'=> 5, 'orderby'=> 'date');
+<?php $args = array('posts_per_page'=> 5, 'orderby'=> 'date');
   $postlist = get_posts($args);
   foreach ($postlist as $post):
     setup_postdata($post); ?>
@@ -45,7 +45,7 @@ get_header(); ?>
           <h1 class="entry-title">
             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
           </h1>
-        </header>-
+        </header>
         <div class="entry-content">
           <?php the_excerpt(); ?>
         </div>
@@ -53,9 +53,9 @@ get_header(); ?>
           <p><?php the_tags(); ?></p>
         </footer>
       </article>
-<?php-]
-    endforeach;
-    wp_reset_postdata();
+<?php
+  endforeach;
+  wp_reset_postdata();
 ?>
 
 <?php do_action( 'foundationpress_before_content' ); ?>
