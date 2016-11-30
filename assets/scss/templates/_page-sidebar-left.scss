@@ -22,9 +22,6 @@
         padding-left: 3rem;
       }
 
-      .orbit {
-        max-width: 89vw;
-      }
 
       > article {
         padding-left: 2rem;
@@ -38,6 +35,10 @@
           color: scale-color($primary-color, $lightness: -14%);
         }
       }
+    }
+
+    .tabs .tabs-title > a {
+      color: $primary-color;
     }
   }
 
