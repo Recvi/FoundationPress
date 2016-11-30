@@ -37,6 +37,17 @@
       }
     }
 
+    .page-image {
+      position: relative;
+      width: 100%;
+    }
+    .page-image-title {
+      position: absolute;
+      width: 100%;
+      top: 200px;
+      font-family: 'Oswald', sans-serif;
+    }
+
     .tabs .tabs-title > a {
       color: $primary-color;
     }
