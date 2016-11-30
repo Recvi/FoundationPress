@@ -512,10 +512,10 @@ $show-header-for-stacked: false;
 // --------
 
 $tab-margin: 0;
-$tab-background: $light-gray;
-$tab-background-active: $dark-gray;
+$tab-background: $white;
+$tab-background-active: $light-gray;
 $tab-item-color: foreground($tab-background, $primary-color);
-$tab-item-background-hover: $white;
+$tab-item-background-hover: $light-gray;
 $tab-item-padding: 1.25rem 1.5rem;
 $tab-expand-max: 6;
 $tab-content-background: $white;
