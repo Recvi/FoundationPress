@@ -33,6 +33,9 @@
 #menu-mobile-off-canvas {
   background-color: $primary-color;
   height: auto;
+  > li > a {
+    color: $white;
+  }
 }
 #menu-mobile-sidebar-off-canvas {
   height: auto;
