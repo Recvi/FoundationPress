@@ -14,7 +14,6 @@
       padding-left: 0;
       padding-right: 0;
       width: 89vw;
-      height: 89vw;
 
       .padded {
         padding: 2rem;
@@ -25,7 +24,7 @@
       }
 
       .orbit {
-        // max-height: 89vh;
+        max-height: 89vh;
       }
 
       > article {
