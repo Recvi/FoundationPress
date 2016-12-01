@@ -33,8 +33,11 @@
 #menu-mobile-off-canvas {
   background-color: $primary-color;
   height: auto;
-  > li > a {
+  > li a {
     color: $white;
+  }
+  > .is-accordian-submenu-parent > a::after {
+    border-color: #fff transparent transparent;
   }
 }
 #menu-mobile-sidebar-off-canvas {
