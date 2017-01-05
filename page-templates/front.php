@@ -17,19 +17,19 @@ get_header(); ?>
       <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
       <li class="is-active orbit-slide">
         <img class="orbit-image" src="<?php echo get_template_directory_uri().'/assets/images/carlson/orbit/01.jpg'?>" alt="Space">
-        <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+        <figcaption class="orbit-caption my-caption">Space, the final frontier.</figcaption>
       </li>
       <li class="orbit-slide">
         <img class="orbit-image" src="<?php echo get_template_directory_uri().'/assets/images/carlson/orbit/02.jpg'?>" alt="Space">
-        <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+        <figcaption class="orbit-caption my-caption">Lets Rocket!</figcaption>
       </li>
       <li class="orbit-slide">
         <img class="orbit-image" src="<?php echo get_template_directory_uri().'/assets/images/carlson/orbit/03.jpg'?>" alt="Space">
-        <figcaption class="orbit-caption">Encapsulating</figcaption>
+        <figcaption class="orbit-caption my-caption">Encapsulating</figcaption>
       </li>
       <li class="orbit-slide">
         <img class="orbit-image" src="<?php echo get_template_directory_uri().'/assets/images/carlson/orbit/04.jpg'?>" alt="Space">
-        <figcaption class="orbit-caption">Outta This World</figcaption>
+        <figcaption class="orbit-caption my-caption">Outta This World</figcaption>
       </li>
     </ul>
     <nav class="orbit-bullets">

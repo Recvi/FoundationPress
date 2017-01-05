@@ -25,6 +25,13 @@
 
       .orbit {
         max-height: 89vh;
+
+        .orbit-caption.my-caption {
+          margin-bottom: 15%;
+          font-size: 80px;
+          font-weight: 400;
+          text-align: center;
+        }
       }
 
       > article {
