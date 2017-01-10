@@ -32,6 +32,10 @@
           font-weight: 400;
           text-align: center;
         }
+
+        .orbit-bullets {
+          margin-top: -5rem;
+        }
       }
 
       > article {
@@ -45,6 +49,11 @@
         .entry-title > a:hover {
           color: scale-color($primary-color, $lightness: -14%);
         }
+      }
+
+      #timeline {
+        position: fixed;
+        
       }
     }
   }
