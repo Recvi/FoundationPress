@@ -35,6 +35,7 @@ get_header(); ?>
   endforeach;
   wp_reset_postdata();
 ?>
+<?php the_content(); ?>
 <?php do_action( 'foundationpress_after_content' ); ?>
 <?php get_sidebar(); ?>
 

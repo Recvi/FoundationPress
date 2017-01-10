@@ -46,7 +46,7 @@ get_header(); ?>
       $recent_posts = wp_get_recent_posts();
       foreach( $recent_posts as $recent ) {
         printf( '<li><a href="%1$s">%2$s</a></li>',
-            esc_url( get_post_permalink( $recent['ID'], true ) ),
+            esc_url( get_site_url().'/'.$recent['slug'] ) ),
             apply_filters( 'the_title', $recent['post_title'], $recent['ID'] )
           );
       }
