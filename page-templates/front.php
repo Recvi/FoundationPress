@@ -39,27 +39,7 @@ get_header(); ?>
       <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
     </nav>
   </div>
-<?php $args = array('posts_per_page'=> 5, 'orderby'=> 'date');
-  $postlist = get_posts($args);
-  foreach ($postlist as $post):
-    setup_postdata($post); ?>
-      <article id="post-<?php the_ID(); ?>">
-        <header>
-          <h1 class="entry-title">
-            <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-          </h1>
-        </header>
-        <div class="entry-content">
-          <?php the_excerpt(); ?>
-        </div>
-        <footer>
-          <p><?php the_tags(); ?></p>
-        </footer>
-      </article>
-<?php
-  endforeach;
-  wp_reset_postdata();
-?>
+  <!-- TODO: Show the last 5 posts by date in a fixed list. -->
 <?php the_content(); ?>
 <?php do_action( 'foundationpress_after_content' ); ?>
 </div>
