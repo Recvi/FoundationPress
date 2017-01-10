@@ -15,7 +15,7 @@ var gitWatch    = require('gulp-git-watch');
 
 // Enter URL of your local server here
 // Example: 'http://localwebsite.dev'
-var URL = 'http://localhost';
+var URL = 'http://10.200.47.155';
 
 // Check for --production flag
 var isProduction = !!(argv.production);
