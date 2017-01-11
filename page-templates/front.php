@@ -29,7 +29,7 @@ get_header(); ?>
       </li>
       <li class="orbit-slide">
         <img class="orbit-image" src="<?php echo get_template_directory_uri().'/assets/images/carlson/orbit/04.jpg'?>" alt="Space">
-        <figcaption class="orbit-caption my-caption">Outta This World</figcaption>
+        <figcaption class="orbit-caption my-caption">Let's explore it.</figcaption>
       </li>
     </ul>
     <nav class="orbit-bullets">
@@ -58,7 +58,4 @@ get_header(); ?>
 <?php do_action( 'foundationpress_after_content' ); ?>
 </div>
 <?php get_sidebar(); ?>
-
 </div>
-
-<?php get_footer();
