@@ -41,6 +41,7 @@ get_header(); ?>
   </div>
   <!-- TODO: Show the last 5 posts by date in a fixed list. -->
   <div id="timeline">
+    <h4>RECENT POSTS</h4>
     <ul>
     <?php
       $recent_posts = wp_get_recent_posts( array('post_status' => 'publish', 'numberposts' => 5) );

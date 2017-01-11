@@ -53,8 +53,17 @@
 
       #timeline {
         position: fixed;
-        top: 50vh;
-        right: 50vh;
+        top: 180px;
+        right: 0px;
+        background-color: $white;
+        padding: 15px 10px;
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+
+        ul {
+          list-style: none;
+          margin-top: 20px;
+        }
       }
     }
   }
