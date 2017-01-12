@@ -25,12 +25,21 @@
 
       .orbit {
         max-height: 89vh;
+	
+ 	.orbit-container {
+	  height: 50vh;
+	}
 
         .orbit-caption.my-caption {
           margin-bottom: 25%;
-          font-size: 80px;
+          font-size: 50px;
           font-weight: 400;
           text-align: center;
+          top: 15vh;
+
+          .smaller {
+	    font-size: 30px;
+	  }
         }
 
         .orbit-bullets {
@@ -53,7 +62,7 @@
 
       #timeline {
         position: fixed;
-        bottom: 2vh;
+        top: 150px;
         right: 0px;
         background-color: $white;
         padding: 15px 10px;
