@@ -14,7 +14,9 @@ get_header(); ?>
   <img src="<?php echo get_template_directory_uri(). '/../../uploads/2016/11/panel.enscale.TravelTechnology-SmallHero.full_.high_-1.jpg'; ?>" alt="Header image"  />
   <h2 class="page-image-title"><?php the_title(); ?></h2>
 </div>
-<?php while ( have_posts() ) : the_post(); ?>
+<?php global $query_string; //required
+$posts = query_posts($query_string);
+while ( have_posts() ) : the_post(); ?>
 <section class="intro" role="main">
 	<div class="fp-intro">
 
@@ -31,7 +33,7 @@ get_header(); ?>
 
 	</div>
 </section>
-<?php endwhile;?>
+<?php endwhile; wp_reset_query(); ?>
 <?php do_action( 'foundationpress_after_content' ); ?>
 <?php get_sidebar(); ?>
 
