@@ -14,9 +14,9 @@ get_header(); ?>
 <div class="page-image">
   <img src="<?php echo get_template_directory_uri(). '/../../uploads/2016/11/panel.enscale.TravelTechnology-SmallHero.full_.high_-1.jpg'; ?>" alt="Header image"  />
   <h2 class="page-image-title"><?php the_title(); ?></h2>
-  <h4>This is where you can see all the blog posts. You can create one by selecting the "Create New Post" option in the sidebar.</h4>
+  <small style="position:absolute; top:300px; color:#fefefe; text-align:center;">This is where you can see all the blog posts. You can create one by selecting the "Create New Post" option in the sidebar.</small>
 </div>
-<h5>Disclaimer: Content is strictly personal. It does not reflect the views of Carlson Wagonlit Travel and shall be fully compliant to company privacy.</h5>
+<small>Disclaimer: Content is strictly personal. It does not reflect the views of Carlson Wagonlit Travel and shall be fully compliant to company privacy.</small>
 <?php $args = array('posts_per_page'=> 5, 'orderby'=> 'date');
   $postlist = get_posts($args);
   foreach ($postlist as $post):
