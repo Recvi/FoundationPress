@@ -25,6 +25,10 @@
     .edit-link {
       float: right;
     }
+    .delete-link {
+      float: right;
+      color: $alert-color;
+    }
     .entry-title {
       font-size: 2rem;
     }
