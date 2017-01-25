@@ -15,7 +15,8 @@ get_header(); ?>
 	<article <?php post_class('main-content') ?> id="post-<?php the_ID(); ?>">
 		<header>
 			<h1 class="entry-title"><?php the_title(); ?></h1>
-			<span class="delete-link"><a href="<?php get_delete_post_link(); ?>">Delete</a></span>
+
+			<?php wp_delete_post_link('Delete', '<span class="delete-link">', '</span>'); ?>
 			<?php edit_post_link( __( 'Edit', 'foundationpress' ), '<span class="edit-link">', '</span>' ); ?>
 			<?php foundationpress_entry_meta(); ?>
 		</header>

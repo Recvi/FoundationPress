@@ -53,5 +53,8 @@ require_once( 'library/remove-admin-bar.php');
 /** After login redirect to home page. */
 require_once( 'library/login-redirect.php');
 
+/** Add remove post link. */
+require_once( 'library/add-post-remove-link.php');
+
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
 // require_once( 'library/protocol-relative-theme-assets.php' );

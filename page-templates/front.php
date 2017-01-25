@@ -23,7 +23,7 @@ get_header(); ?>
     <h4>Recent Posts</h4>
     <ul>
     <?php
-      $recent_posts = wp_get_recent_posts( array('post_status' => 'publish', 'numberposts' => 5) );
+      $recent_posts = wp_get_recent_posts( array('post_status' => 'publish', 'numberposts' => 10) );
       foreach( $recent_posts as $recent ) {
         printf( '<li><a href="%1$s">%2$s</a></li>',
             esc_url( get_site_url().'/'.$recent['post_name'] ),
